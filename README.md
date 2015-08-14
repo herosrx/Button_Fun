@@ -1,6 +1,6 @@
 # TestForXcode
 test the xcode server project
-touch README.md //新建一个记录提交操作的文档
+touch README.md //新建一个记录提交操作的文档<br>
 git init //初始化本地仓库
 git add README.md //添加
 git commit -m "first commit"//提交到要地仓库，并写一些注释
