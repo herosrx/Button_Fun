@@ -7,7 +7,7 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "NO"
+            buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
@@ -20,6 +20,34 @@
                ReferencedContainer = "container:Button_Fun.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FE311C71B7F153F008DF98C"
+               BuildableName = "Button_Fun Tests.xctest"
+               BlueprintName = "Button_Fun Tests"
+               ReferencedContainer = "container:Button_Fun.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FE311DB1B7F23B2008DF98C"
+               BuildableName = "Button_FunTest.xctest"
+               BlueprintName = "Button_FunTest"
+               ReferencedContainer = "container:Button_Fun.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,6 +56,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FE311C71B7F153F008DF98C"
+               BuildableName = "Button_Fun Tests.xctest"
+               BlueprintName = "Button_Fun Tests"
+               ReferencedContainer = "container:Button_Fun.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FE311DB1B7F23B2008DF98C"
+               BuildableName = "Button_FunTest.xctest"
+               BlueprintName = "Button_FunTest"
+               ReferencedContainer = "container:Button_Fun.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
