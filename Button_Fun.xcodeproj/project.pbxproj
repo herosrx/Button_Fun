@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* Button_FunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Button_FunAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* Button_FunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Button_FunViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* Button_FunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Button_FunViewController.m */; };
+		8F92E7961B80221D00D7C3C6 /* XcodeCoverage in Resources */ = {isa = PBXBuildFile; fileRef = 8F92E7951B80221D00D7C3C6 /* XcodeCoverage */; };
+		8F92E7971B80221D00D7C3C6 /* XcodeCoverage in Resources */ = {isa = PBXBuildFile; fileRef = 8F92E7951B80221D00D7C3C6 /* XcodeCoverage */; };
+		8F92E7A01B80269600D7C3C6 /* Button_FunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Button_FunViewController.m */; };
+		8F92E7A11B80269C00D7C3C6 /* Button_FunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Button_FunAppDelegate.m */; };
+		8F9E7B631B808F7E00E8902A /* Button_FunTest.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 8FE311DC1B7F23B2008DF98C /* Button_FunTest.xctest */; };
 		8FE311E11B7F23B2008DF98C /* Button_FunTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE311E01B7F23B2008DF98C /* Button_FunTest.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Button_Fun_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button_Fun_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Button_Fun-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Button_Fun-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8F92E7951B80221D00D7C3C6 /* XcodeCoverage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = XcodeCoverage; sourceTree = "<group>"; };
 		8FE311DC1B7F23B2008DF98C /* Button_FunTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Button_FunTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE311DF1B7F23B2008DF98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FE311E01B7F23B2008DF98C /* Button_FunTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_FunTest.m; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8F92E7951B80221D00D7C3C6 /* XcodeCoverage */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -157,6 +162,7 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				8F9E7B641B808FD700E8902A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -226,7 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F92E7961B80221D00D7C3C6 /* XcodeCoverage in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				8F9E7B631B808F7E00E8902A /* Button_FunTest.xctest in Resources */,
 				2899E5220DE3E06400AC0155 /* Button_FunViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,19 +243,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F92E7971B80221D00D7C3C6 /* XcodeCoverage in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F9E7B641B808FD700E8902A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./XcodeCoverage/exportenv.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F92E7A11B80269C00D7C3C6 /* Button_FunAppDelegate.m in Sources */,
+				8F92E7A01B80269600D7C3C6 /* Button_FunViewController.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* Button_FunAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* Button_FunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +303,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Button_Fun_Prefix.pch;
@@ -403,6 +430,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -418,6 +447,9 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
@@ -446,6 +478,7 @@
 				8FE311E61B7F23B2008DF98C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Button_Fun" */ = {
 			isa = XCConfigurationList;
