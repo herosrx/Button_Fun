@@ -38,9 +38,9 @@
 
 - (void)testAtrue0 {
     NSLog(@"00000000000000000000000");
-    Button_FunViewController *button_tap=[[Button_FunViewController alloc] init];
-    NSInteger d=[button_tap addNumber:2 tow:3];
-    NSLog(@"%d",d);
+//    Button_FunViewController *button_tap=[[Button_FunViewController alloc] init];
+//    NSInteger d=[button_tap addNumber:2 tow:3];
+//    NSLog(@"%d",d);
     XCTAssert(1, @"Can not be zero");
 }
 
