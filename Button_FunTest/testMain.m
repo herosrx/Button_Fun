@@ -1,52 +1,46 @@
 //
-//  Button_FunTest.m
-//  Button_FunTest
+//  testMain.m
+//  Button_Fun
 //
-//  Created by songwei on 15/8/15.
+//  Created by songwei on 15/8/16.
 //
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "Button_FunViewController.h"
 
-
-@interface Button_FunTest : XCTestCase
+@interface testMain : XCTestCase
 
 @end
 
-@implementation Button_FunTest
+@implementation testMain
 
-- (void)setUp {  //每次开始执行一个用例调用一次次函数
+- (void)setUp {
     [super setUp];
-
-    NSLog(@"开始");
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
-- (void)tearDown { //每次执行结束一个用例调用一次次函数
+- (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
-     NSLog(@"完成");
 }
 
 - (void)testExample {
     // This is an example of a functional test case.
-    NSLog(@"testExample");
-    XCTAssert(1, @"Can not be zero");
-   // XCTAssert(YES, @"Pass");
+    XCTAssert(YES, @"Pass");
 }
-- (void)testTrue2 {
-    NSLog(@"2222222222222222222222");
+
+- (void)testTrue4 {
+    NSLog(@"4444444444444444444444");
     XCTAssert(1, @"Can not be zero");
 }
 
-- (void)testTrue1 {
-    NSLog(@"1111111111111111111111");
-    XCTAssert(1, @"Can not be zero");
-}
-
-- (void)testTrue3 {
-    NSLog(@"3333333333333333333333");
+- (void)testAtrue0 {
+    NSLog(@"00000000000000000000000");
+    Button_FunViewController *button_tap=[[Button_FunViewController alloc] init];
+    NSInteger d=[button_tap addNumber:2 tow:3];
+    NSLog(@"%d",d);
     XCTAssert(1, @"Can not be zero");
 }
 
