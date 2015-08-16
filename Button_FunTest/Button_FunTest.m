@@ -45,6 +45,10 @@
     NSLog(@"3333333333333333333333");
     XCTAssert(1, @"Can not be zero");
 }
+- (void)testTrue4 {
+    NSLog(@"4444444444444444444444");
+    XCTAssert(1, @"Can not be zero");
+}
 
 - (void)testAtrue {
     NSLog(@"0000000000000000000000");
